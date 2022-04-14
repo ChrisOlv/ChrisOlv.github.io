@@ -1705,6 +1705,12 @@ input, select, textarea {
 				width: auto;
 			}
 
+			.image.icon {
+				display: block;
+				width: 5px;
+				margin: 0 0 2em 0;
+			}
+
 /* Button */
 
 	input[type="button"],
@@ -1868,6 +1874,14 @@ input, select, textarea {
 
 				ul.social li a.fa-twitter {
 					background-color: #2DAAE4;
+*
+					
+					
+				}
+
+
+				ul.social li a.fa-medium {
+					background-color: #191919;
 				}
 
 				ul.social li a.fa-facebook-f {
@@ -1892,6 +1906,7 @@ input, select, textarea {
 
 				ul.social li a.fa-github {
 					background-color: #FAFAFA;
+					background-image: url("images\github_logo.png");
 				}
 
 				ul.social li a.fa-rss {
