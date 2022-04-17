@@ -1,4 +1,56 @@
 
+/*
+	TEST CSS ABOUT ME
+
+.card{
+	border-radius:.25rem;
+	background-color:#fff;
+	border:1px solid rgba(0,0,0,.125);
+	margin-bottom:3rem}
+	
+	.card .h2,.card h2{
+		margin-top:0;
+		margin-bottom:40px}
+	
+	.card .card-block{
+		padding:4rem}
+		
+@media (min-width:992px){
+	.card .card-block{padding:6rem}}
+
+
+.rowbout{
+	margin-left:-15px;
+	margin-right:-15px}
+	
+	.rowbout:after,.rowbout:before{
+		content:" ";
+		display:table}
+	
+	.rowbout:after{clear:both}
+	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4bout,.col-md-5,.col-md-6,.col-md-7,.col-md-8bout,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12bout{position:relative;min-height:1px;padding-left:15px;padding-right:15px}
+	.col-xs-12bout{float:left}
+	.col-md-4bout{width:33.33333%}
+	.col-md-8bout{width:66.66667%}
+	.img-responsivebout{display:block;max-width:100%;height:auto}
+
+	.containerbout{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+	.containerbout:after,.containerbout:before{content:" ";display:table}
+	.containerbout:after{clear:both}
+	@media (min-width:768px)
+		{.containerbout{width:750px}}
+	@media (min-width:992px)
+	{.containerbout{width:970px}}
+	@media (min-width:1200px){.containerbout{width:1170px}}
+	.containerbout-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+	.containerbout-fluid:after,.containerbout-fluid:before{content:" ";display:table}
+	.containerbout-fluid:after{clear:both}
+
+
+
+	fin TEST CSS ABOUT ME
+*/
+
 
 
 
@@ -328,6 +380,14 @@ input, select, textarea {
 				}
 
 		}
+/* Row My work*/
+.row2 {
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: left;
+	
+}
+
 
 /* Row */
 
@@ -1683,11 +1743,12 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
-
+/* Image 
 		.image.featured {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+
 		}
 
 		.image.left {
@@ -1705,10 +1766,12 @@ input, select, textarea {
 				width: auto;
 			}
 
-			.image.icon {
-				display: block;
+			.icon {
+				display:grid;
 				width: 5px;
 				margin: 0 0 2em 0;
+				align-items: center;
+				position: relative;
 			}
 
 /* Button */
@@ -2438,6 +2501,33 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+				}
+
+				.box.style3 {
+					max-width: 32em;
+					margin-left: auto !important;
+					margin-right: auto !important;
+					display: flex;
+					justify-content: flex-start;
+					flex-direction: row;
+					flex-wrap: nowrap;
+
+				}
+
+				.item1 		/* Img*/{
+					flex-grow: 1;
+					flex: basis 10%;; /* default auto */
+					width: 2rem;
+					height: 2rem;
+					flex-shrink: 3;
+					
+				}
+				.item2 {
+					flex-grow: 4;
+					text-align: left !important;
+				}
+				.item3 {
+					
 				}
 
 		/* Wrappers */
